@@ -1,0 +1,79 @@
+         body {
+            background-image: url('../images/pawel-czerwinski-cloth_2.jpg');
+            background-size: cover;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .main li {
+            margin-bottom: 10px;
+            padding: 10px;
+            /* background-color: #f0f0f0; */
+            border-left: 5px solid #3498db;
+        }
+
+        ul ul {
+            margin-left: 20px;
+        }
+
+        ul ul ul {
+            margin-left: 40px;
+        }
+
+        ul ul ul ul {
+            margin-left: 60px;
+        }
+
+        header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0) !important; /* Transparent background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.footer_link{
+    color: rgb(154, 176, 255); 
+    font-weight: bold; 
+    font-size: 16px;
+    text-decoration: none;
+}
+footer {
+    background: rgba(0, 0, 0) !important; /* Background color for the footer */
+    color: white; /* Text color for the footer */
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+footer ul li a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 15px;
+}
+footer li{
+    padding: 5px;
+}
+body{
+    display: flex;
+flex-direction: column;
+/*min-height: 100vh;*/
+}
+
+.me-2 {
+    margin-bottom: 10px !important;
+}
+
+
+
+.main{
+    max-width: 80%; 
+    margin: auto;
+     margin-top: 60px;  padding-bottom:0; flex: 1;
+}
